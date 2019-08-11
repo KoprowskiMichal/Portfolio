@@ -1,0 +1,54 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+h1.logo
+{
+	font-size: 44px; /*trzcionka rozmiar */
+	font-weight: 700; /* pogrubienie trzcionki */
+	color: #addd;
+	text-align: center;  /*logo na srodku*/
+	text-transform: uppercase; /*drukowane litery */
+	letter-spacing: 5px; /* rozstrzelenie liter*/
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+nav
+{
+	background-color: #1c74b2;
+	text-align: center;
+	display: inline-flexbox;
+}
+.menu /*classa menu*/
+{
+	list-style-type: none; /* zeruje kropki powstałe przez tabele */
+	margin:0;
+	padding: 10px;
+	font-size: 18px;
+	line-height: 200%;
+	min-height: 38px;
+}
+.menu >li /* tylko na pojedynyczy aspekt*/
+{
+	display: inline-block;
+	padding-left: 20px; /* odstepy miedzy nimi*/
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+.menu >li:first-child /* dotyczy tylko 1 separatora ! */
+{
+	border-left:1px dashed #0a2b42; /* kreseczki z lewej strony nawigacji*/
+}
+.menu a
+{
+color: #fff; /* to chyba nic mi nie daje :*/
+text-decoration: none;
+}
+.menu a:hover
+{
+	color: #0a2b42;
+}
