@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Strona www</title>
+    
+    
+    
+<link rel="stylesheet" href="./Strona www_files/normalize.min.css"><link href="./Strona www_files/css" rel="stylesheet"><link rel="stylesheet" href="./Strona www_files/style.css"></head>
+<body>
+
+<header class="site-header">
+    <div class="container">
+        <h1 class="site-logo">Cahee</h1>
+
+        <nav>
+            <ul class="main-menu">
+                <li class="main-menu-item active">
+                    <a href="http://127.0.0.1:5500/index.html#">Home</a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="http://127.0.0.1:5500/index.html#about">About</a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="http://127.0.0.1:5500/index.html#services">Services</a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="http://127.0.0.1:5500/index.html#gallery">Gallery</a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="http://127.0.0.1:5500/index.html#blog">Blog</a>
+                </li>
+                <li class="main-menu-item">
+                    <a href="http://127.0.0.1:5500/index.html#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<main>
+    <section id="fresh" class="section-fresh">
+        <div class="container">
+            <div class="section-fresh-content">
+                <h2 class="section-fresh-title">Fresh Life</h2>
+                <p class="section-fresh-text">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco.</p>
+                <button class="section-fresh-action">
+                    Get free now
+                </button>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="site-footer">
+    <div class="container">
+        <address class="footer-copyright">® 2015 Company All rights reserved</address>
+        <h1 class="footer-logo">Cahee</h1>
+        <p class="footer-author">Made with <strong>love</strong> by Auskteez</p>
+    </div>
+</footer>
+<section class="about-us">
+    
+    <figure>
+            <img src="./Strona www_files/background2.png" style="
+    width: auto;
+">
+    </figure>
+    <article>
+            <h1>About Uss</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, repellat ex reiciendis fugiat debitis ea placeat non dignissimos totam vitae quaerat consequuntur beatae id porro perspiciatis? Ad, ducimus. Omnis, nobis?</p>
+    </article>  
+</section>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>

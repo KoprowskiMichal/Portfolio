@@ -157,3 +157,70 @@ body {
 .site-footer .footer-author strong {
     color: #ff6033;
 }
+.about-us
+{
+    display: flex;
+    justify-content: center;
+    min-width: auto;
+    position: relative;
+    background-color: #00B8B7;
+}
+.about-us article
+{
+    color:white;
+    text-align: center;
+    margin-top: 150px;   
+    margin-right: 130px;
+}
+.about-us h1
+{
+    font-size: 3rem;
+}
+.tomato
+{
+    background-color: #71C0FE;
+    width: auto;
+    height: 100vh;
+}
+.box
+{
+display: flex;
+width: auto;
+height: auto;
+flex-direction: column;
+margin-left:180px;
+
+}
+.box-1
+{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    display:block;
+    margin:20px;
+    margin-top: 190px;
+}
+.box-2
+{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    display:block;
+    margin:20px;
+}
+.box-3
+{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    display:block;
+    margin:20px;
+}
+.box-4
+{
+    width: 200px;
+    height: 50px;
+    background-color:white;
+    display:block;
+    margin:20px;
+}
